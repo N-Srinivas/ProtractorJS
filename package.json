@@ -1,0 +1,14 @@
+{
+  "name": "ProtractorJS",
+  "version": "1.0.0",
+  "description": "Protractor project",
+  "dependencies": {
+    "protractor": "5.4.2",
+    "jasmine-spec-reporter": "2.7.0"
+  },
+  "scripts": {
+    "update": "node_modules/.bin/webdriver-manager update",
+    "start": "node_modules/.bin/webdriver-manager start",
+    "test": "protractor conf.js"
+  }
+}
